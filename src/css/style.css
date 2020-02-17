@@ -1,0 +1,1035 @@
+@font-face {
+    font-family: 'Avenir Next Regular';
+    src: url('../../src/assets/fonts/AvenirNextLTPro-Regular.otf');
+}
+
+@font-face {
+    font-family: 'Avenir Next Demi';
+    src: url('../../src/assets/fonts/AvenirNextLTPro-Demi.otf');
+}
+
+@font-face {
+    font-family: 'Avenir Next Bold';
+    src: url('../../src/assets/fonts/AvenirNextLTPro-Bold.otf');
+}
+
+@font-face {
+    font-family: 'Avenir Next Medium';
+    src: url('../../src/assets/fonts/Avenir Next Condensed Medium.otf');
+}
+
+@font-face {
+    font-family: 'Avenir Next Book';
+    src: url('../../src/assets/fonts/AvenirLTStd-Book.otf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+}
+
+p {
+    margin: 20px 0;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+
+body {
+    font-family: "Avenir Next Regular";
+}
+
+.header-mobile-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.header-mobile-top .logo {
+    height: 45px;
+    width: auto;
+}
+
+.header-mobile {
+    position: absolute;
+    right: 0;
+    display: none;
+    flex-direction: column;
+    padding: 39px 30px 39px 39px;
+    font-size: 18px;
+    border-bottom-left-radius: 45px;
+    border-top-left-radius: 45px;
+    box-shadow: 0px 7px 20px 0px rgba(0, 0, 0, 16%);
+    background-color: white;
+    top: 0;
+}
+
+.header-mobile.active {
+    display: flex;
+}
+
+.footer a{
+    color: white;
+}
+
+.header-mobile .top {
+    display: flex;
+    margin-bottom: 31px;
+}
+
+.header-mobile .top img {
+    margin-left: 61px;
+}
+
+.header-mobile .menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-mobile .menu a:not(:last-child) {
+    margin-bottom: 21px;
+}
+
+.header-mobile .bottom {
+    margin-top: 31px;
+}
+
+.header .menu a{
+    color: #222d39;
+}
+
+.p1 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.p1 .p1-subtitle {
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+.p1 .left .title {
+    font-size: 3vw;
+    color: #202440;
+    letter-spacing: 0.02em;
+}
+
+.p1 .left h2 {
+    font-family: 'Avenir Next Regular';
+    font-size: 65px;
+    font-weight: 100;
+}
+
+.p1 .left .buttons {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding-top: 61px;
+    padding-bottom: 61px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 668px;
+}
+
+.p1 .left .buttons a {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    line-height: 65px;
+    padding: 12px 25px;
+    border-radius: 15px;
+    box-shadow: 0px 7px 20px 0px rgba(0, 0, 0, 16%);
+    font-size: 25px;
+}
+
+.p1 .left .buttons a:not(:first-child) {
+    background-color: #202440;
+}
+
+.p1 .left .buttons a img {
+    margin-right: 25px;
+}
+
+.p1 .left .talk {
+    text-decoration: none;
+    color: #48BAB4;
+    font-size: 18px;
+    text-align: center;
+}
+
+.p1 .left .talk .talk-image {
+    position: absolute;
+    left: -155px;
+    top: -30px;
+}
+
+.container {
+    padding: 0 200px;
+    color: #222d39;
+}
+
+.logo {
+    width: 250px;
+    height: 89px;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.p2, .p3 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.p2 .right p {
+    font-size: 25px;
+}
+
+.p2 .right {
+    padding-left: 100px;
+}
+
+.p3 .right {
+    font-size: 30px;
+}
+
+.p3-dsc {
+    font-size: 20px;
+    color: #677294;
+    line-height: 2;
+}
+
+.p3 .right {
+    padding-left: 100px;
+}
+
+/* p4 */
+
+.p4 {
+    margin-top: 175px;
+}
+
+.p4 .content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.p4 .content>* {
+    margin-top: 75px;
+}
+
+.p4 .content .obj {
+    display: flex;
+    flex-direction: column;
+}
+
+.p4 .content .obj img {
+    position: absolute;
+    top: -130px;
+    left: 32px;
+}
+
+.p4 .content .obj:first-child img {
+    left: 68px;
+}
+
+.sub-title {
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #48bab4;
+    display: flex;
+    justify-content: center;
+    padding-top: 90px;
+    border-top: 1px solid #eeeeee;
+    margin-top: 70px;
+    margin-bottom: 90px;
+}
+
+.p2 .right {
+    line-height: 55px;
+    display: flex;
+    flex-direction: column;
+}
+
+.p3 .right .title-cn {
+    font-size: 30px;
+    letter-spacing: 0.01em;
+    line-height: 1.6;
+    color: #202440;
+}
+
+.p4 .content .obj p {
+    color: #202440;
+    font-size: 30px;
+    margin: 5px 0 0 0;
+}
+
+.p4-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    cursor: pointer;
+}
+
+.p4-button a {
+    color: white;
+    padding: 15px 45px;
+    box-shadow: 0px 7px 20px 0px rgba(0, 0, 0, 20%);
+    border-radius: 15px;
+    background-color: #202440;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.p5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+
+.p5 .person {
+    width: 30%;
+}
+
+.p5 .persons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.p5 .person .content {
+    display: flex;
+    flex-direction: column;
+    padding: 45px 33px;
+    border-radius: 45px;
+    box-shadow: 0px 7px 20px 0px rgba(0, 0, 0, 20%);
+    border-bottom-left-radius: 0;
+    height: 470px;
+    overflow: hidden;
+}
+
+.p5 .person .content p {
+    color: #677294;
+    font-size: 20px;
+    letter-spacing: 0.01em;
+    line-height: 35px;
+}
+
+.p-img {
+    height: 130px;
+    width: 130px;
+}
+
+.p-about {
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-about p {
+    margin: 0;
+    margin-left: 30px;
+}
+
+.p-name {
+    font-size: 25px;
+    color: #202440;
+    margin-bottom: 16px;
+}
+
+.p-job {
+    font-size: 20px;
+    color: #48BAB4;
+    line-height: 40px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    top: 0;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px 0;
+    margin-bottom: 155px;
+}
+
+.header .menu {
+    display: flex;
+    flex-direction: row;
+    margin-left: -25%;
+    margin-top: -20px;
+}
+
+.header .menu a {
+    font-family: 'Avenir Next Book';
+    font-size: 25px;
+}
+
+.header .menu a:not(:first-child) {
+    margin-left: 55px;
+}
+
+.header.left {}
+
+.header .right {
+    margin-top: -20px;
+}
+
+.header .right a {
+    font-family: 'Avenir Next Book';
+    font-size: 25px;
+    color: #222d39;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 1600px) {
+    .header .menu {
+        margin-left: -15%;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    .header .menu {
+        margin-left: -5%;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .header .menu {
+        margin-left: 0;
+    }
+}
+
+.footer {
+    padding: 140px 200px 64px 200px;
+    background-color: #202440;
+}
+
+.footer-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #FFFFFF !important;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.footer-col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer-row:first-child .footer-col .link {
+    margin-bottom: 25px;
+}
+
+.footer-row:first-child .footer-col .links-2:last-child {
+    margin-bottom: 0;
+}
+
+.footer-row:first-child .footer-col .title {
+    margin-bottom: 68px;
+}
+
+.footer-row:first-child .footer-col:last-child .message {
+    margin-bottom: 80px;
+}
+
+.footer-row:first-child .footer-col:last-child {
+    max-width: calc(33vw - 110px);
+}
+
+.footer-row:first-child .footer-col:last-child input {
+    width: 29vw;
+    height: 70px;
+    border-radius: 50px;
+    border: none;
+    padding: 10px 50px;
+}
+
+.footer-row:first-child .footer-col:last-child input:focus {
+    outline-width: 0;
+}
+
+.footer-row:first-child .footer-col:last-child input::placeholder {
+    color: #677294;
+    font-size: 18px;
+    font-family: 'Avenir Next Regular';
+}
+
+.newsletter-input .send-button {
+    position: absolute;
+    top: -6px;
+    left: calc(30vw - 115px);
+}
+
+.footer-col .social-group {
+    margin-top: 52px;
+    margin-left: 8px;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-col .social-group .social-button {
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#nav-close {
+    cursor: pointer;
+}
+
+#nav-button {
+    cursor: pointer;
+}
+
+.footer-col .social-group .social-button:not(:first-child) {
+    margin-left: 20px;
+}
+
+.footer-col .social-group .social-button .circle {
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    border: 2px solid white;
+    left: -19px;
+    top: -7px;
+}
+
+.footer-row:first-child {
+    padding-bottom: 100px;
+    border-bottom: 1px solid rgba(255, 255, 255, 10%);
+}
+
+.footer-row:last-child {
+    margin-top: 49px;
+}
+
+.footer-row:first-child .links {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-row:first-child .links link {
+    color: white !important;
+}
+
+.footer-row:first-child .links .links-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-row:first-child .links .links-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-row:last-child .links .link:not(:last-child) {
+    padding-right: 33px;
+    border-right: 2px solid rgba(255, 255, 255, 100%);
+}
+
+.footer-row:last-child .links .link:not(:first-child) {
+    padding-left: 33px;
+}
+
+.footer-row:first-child .footer-col:first-child>img {
+    margin-left: -22px;
+}
+
+.footer .link {
+    cursor: pointer;
+}
+
+/* Mobile Styles */
+
+@media only screen and (max-width: 960px) {
+    .header {
+        display: none;
+    }
+    .container {
+        padding: 0 6%;
+    }
+    .p1 {
+        flex-direction: column;
+    }
+    .p1 .p1-subtitle {
+        font-size: 20px;
+        text-align: center;
+    }
+    .p1 .left {
+        display: flex;
+        padding: 0;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .p1 .left .title.desktop {
+        display: none;
+    }
+    .p1 .left .buttons {
+        flex-direction: column-reverse;
+        width: unset;
+        align-items: center;
+    }
+    .p1 .left .buttons a {
+        font-size: 19px;
+        line-height: 0;
+        padding: 9.5px 25px;
+        font-size: 19px;
+    }
+    .p1 .left .buttons a img {
+        width: 30.5px;
+        height: 31px;
+    }
+    .p1 .left .buttons a:not(:last-child) {
+        margin-top: 35px;
+    }
+    .p1 .left .title {
+        font-size: 30px;
+        text-align: center;
+    }
+    .p1 .right {
+        display: none;
+    }
+    .p1 .talk .talk-image {
+        display: none;
+    }
+    .p2 {
+        flex-direction: column;
+    }
+    .p2 .right {
+        padding: 0;
+    }
+    .p2 .right p {
+        font-size: 18px;
+        text-align: center;
+        margin: 0;
+    }
+    .p2 .right p {
+        margin-top: 41px;
+    }
+    .p3 {
+        flex-direction: column;
+        padding: 0 !important;
+    }
+    .p3 .right {
+        padding: 0;
+    }
+    .p3 .right p {
+        font-size: 18px;
+        text-align: center;
+        margin: 0;
+    }
+    .p3 .right p {
+        margin-top: 60px;
+    }
+    .p3 .right .title-cn {
+        font-size: 20px;
+        line-height: 1.75;
+        letter-spacing: 0.2px;
+    }
+    .p3-dsc {
+        font-size: 18px;
+        text-align: center;
+        margin-top: 40px !important;
+    }
+    .p4 {
+        flex-direction: column;
+        margin-top: 0px;
+    }
+    .p4 .content {
+        flex-direction: column;
+    }
+    .p4 .content p {
+        text-align: center;
+    }
+    .p4 .content .obj img {
+        top: -68px;
+    }
+    .p4 .content .obj p {
+        font-size: 20px !important;
+    }
+    .p4 .content .obj:first-child img {
+        left: calc(44vw - 79.5px);
+    }
+    .p4 .content .obj.second img {
+        left: calc(44vw - 135.5px);
+    }
+    .p4 .content .obj.third img {
+        left: calc(44vw - 103.5px);
+    }
+    .p4 .content .obj:last-child img {
+        left: calc(44vw - 46.5px);
+    }
+    .p4 .content .path.desktop {
+        display: none;
+    }
+    .p4 .content .path.mobile {
+        display: flex;
+        justify-content: center;
+        margin: 43px 0;
+    }
+    .p4.content>* {
+        margin-top: 95px;
+    }
+    .p4-button a {
+        font-size: 19px !important;
+        width: unset !important;
+        height: unset !important;
+    }
+    .p5 {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+    .p5 .person {
+        width: unset;
+    }
+    .p5 .person .content {
+        min-height: unset;
+    }
+    .p5 .person .p-about .p-des .p-name p {
+        margin-left: 10px;
+        font-size: 20px;
+    }
+    .p5 .person .p-about .p-des .p-job p {
+        margin-left: 10px;
+        font-size: 16px;
+    }
+    .p5 .person .p-about .p-img {
+        width: 70px;
+        height: 70px;
+    }
+    .p5 .person .p-about {
+        margin-top: 30px;
+        margin-bottom: 60px;
+    }
+    .sub-title {
+        padding-top: 58px;
+        margin-top: 52px;
+        margin-bottom: 42px;
+    }
+    .sub-title:not(.first) {
+        border-top: none;
+        padding: 61px 0;
+        margin: 0;
+    }
+    .footer {
+        padding: 40px 6vw 64px 6vw !important;
+    }
+    .footer-row {
+        flex-direction: column;
+    }
+    .footer-col {
+        align-items: center;
+    }
+    .footer-col:not(:first-child) {
+        margin-top: 60px;
+    }
+    .footer-row:first-child .footer-col:last-child {
+        max-width: unset;
+    }
+    .footer-row:last-child {
+        flex-direction: column-reverse;
+    }
+    .footer-row:first-child .links .links-1, .footer-row:first-child .links .links-2 {
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .footer-row:first-child .links .links-2 .link {
+        margin-bottom: 0;
+    }
+    .footer-row:first-child .links .links-1 .link:not(:last-child), .footer-row:first-child .links .links-2 .link:not(:last-child) {
+        margin-right: 86px;
+    }
+    .footer-row:first-child .footer-col:last-child input {
+        width: 88vw;
+        height: 34px;
+        border-radius: 50px;
+        border: none;
+        padding: 10px 50px;
+    }
+    .footer-row:first-child .footer-col:last-child input:focus {
+        outline-width: 0;
+    }
+    .footer-row:first-child .footer-col:last-child input::placeholder {
+        color: #677294;
+    }
+    .newsletter-input .send-button {
+        position: absolute;
+        top: -4px;
+        left: calc(88vw - 50px);
+    }
+    .newsletter-input .send-button img {
+        width: 54px;
+        height: 54px;
+    }
+    .left {
+        display: flex;
+        justify-content: center;
+    }
+    .footer .footer-row:first-child {
+        padding: 0;
+        border: none;
+    }
+    .footer-row:last-child {
+        font-size: 18px;
+    }
+    .footer-row:last-child .links .link {
+        font-size: 16px;
+    }
+    .footer-row:last-child {
+        align-items: center;
+    }
+    .footer-row>*:not(:first-child):not(.links) {
+        margin-bottom: 31px;
+    }
+    .footer-row:last-child .links {
+        margin-bottom: 41px;
+    }
+    .footer-row:last-child .links .link:not(:last-child) {
+        padding-right: 27px;
+        border-right: 1px solid rgba(255, 255, 255, 10%);
+    }
+    .footer-row:last-child .links .link:not(:first-child) {
+        padding-left: 27px;
+    }
+    .footer {
+        text-align: center;
+    }
+    .footer-row:last-child {
+        font-size: 18px;
+    }
+    .footer-row:first-child .footer-col:last-child .message {
+        font-size: 17.5px;
+    }
+    .footer-row:first-child .title {
+        font-weight: bold;
+    }
+    .footer {
+        padding: 160px 200px 95px 200px;
+    }
+    .p-name {
+        font-weight: bold;
+        margin-bottom: 7px;
+    }
+    .p4-button a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 363px;
+        height: 65px;
+        font-weight: bold;
+        font-family: 'Avenir Next Demi';
+        font-size: 24px;
+        box-shadow: 0px 7px 20px 0px rgba(0, 0, 0, 20%);
+    }
+    .p3 .left img {}
+    .p3 {
+        padding: 0 130px;
+    }
+    .p3-dsc {
+        font-size: 20px;
+    }
+    .p1 .left .title {
+        font-weight: bold;
+        line-height: 1.37;
+    }
+    .header .right {
+        letter-spacing: 1.88px;
+    }
+    .p4 .obj p {
+        font-weight: bold;
+        letter-spacing: 0.02em;
+    }
+    .footer-row:first-child .footer-col:last-child input::placeholder {
+        font-size: 12px;
+    }
+    .p5 .person .content p {
+        margin: 0;
+        overflow: hidden;
+        line-height: 1.6;
+    }
+    .p2 .right strong {
+        letter-spacing: 0.18px;
+        line-height: 1.94;
+    }
+    .p2 .right p {
+        letter-spacing: 0.18px;
+        line-height: 1.94;
+    }
+    .p1-subtitle {
+        line-height: 40px;
+    }
+    .p1 .left .title{
+        margin-top: 25px;
+    }
+    .p1 .left .buttons a{
+        border-radius: 10px;
+    }
+    .p2 .left img{
+        width: 300px;
+    }
+    .p-job{
+        line-height: 20px;
+    }
+    .desktop{
+        display: none;
+    }
+    .footer-message{
+        line-height: 35px;
+    }
+    .footer-row:first-child .title{
+        margin-bottom: 40px !important;
+    }
+    .footer-row:first-child .footer-col:last-child {
+        margin-top: 40px;
+    }
+    .footer-row:first-child .footer-col:last-child .message{
+        line-height: 35px;
+        margin-bottom: 40px;
+    }
+    .footer-row:first-child .footer-col:last-child input{
+        padding-left: 24px;
+    }
+    .footer-row:last-child{
+        margin-top: 9px;
+    }
+    .header-mobile .bottom a, .header-mobile .top{
+        font-family: 'Avenir Next Book';
+        color: #202440;
+        font-weight: bold;
+    }
+    .header-mobile .menu a{
+        color: #222d39;
+    }
+    .p1 .left .buttons{
+        padding-top: 25px;
+    }
+}
+
+/* Desktop Styles */
+
+@media only screen and (min-width: 961px) {
+    .header-mobile {
+        display: none;
+    }
+    .header-mobile-top {
+        display: none;
+    }
+    .path.mobile {
+        display: none;
+    }
+    .p1 .left .buttons a {
+        height: 65px;
+    }
+    .p1 .p1-subtitle {
+        margin-bottom: 0;
+    }
+    .footer-row:last-child {
+        font-size: 18px;
+    }
+    .footer-row:first-child .footer-col:last-child .message {
+        font-size: 17.5px;
+    }
+    .footer-row:first-child .title {
+        font-weight: bold;
+    }
+    .footer {
+        padding: 160px 200px 95px 200px;
+    }
+    .p-name {
+        font-weight: bold;
+    }
+    .p5 .person .content p {
+        margin: 0;
+        overflow: hidden;
+        line-height: 1.6;
+    }
+    .p4-button a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 363px;
+        height: 65px;
+        font-weight: bold;
+        font-family: 'Avenir Next Demi';
+        font-size: 24px;
+        box-shadow: 0px 7px 20px 0px rgba(0, 0, 0, 20%);
+    }
+    .p3 .left img {
+        height: 264px;
+        width: 464px !important;
+        max-width: unset;
+    }
+    .p3 {
+        padding: 0 130px;
+        align-items: center;
+    }
+    .p3-dsc {
+        font-size: 20px;
+    }
+    .p3 .title-cn {
+        font-size: 27.9px !important;
+    }
+    .p2 {
+        align-items: center;
+    }
+    .p2 .left img {
+        width: 647px;
+        height: auto;
+    }
+    .p1 .left .title {
+        font-weight: bold;
+        line-height: 1.37;
+    }
+    .p1 .left .title.mobile {
+        display: none;
+    }
+    .header .right {
+        letter-spacing: 1.88px;
+    }
+    .mobile{
+        display: none;
+    }
+    .header{
+        padding-top: 55px;
+    }
+}

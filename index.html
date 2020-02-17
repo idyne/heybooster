@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>heybooster - Make Sense of Google Analytics Data</title>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+           j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+           'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+           })(window,document,'script','dataLayer','GTM-KMNKXGH');</script>
+    <!-- End Google Tag Manager -->
+    <link rel="stylesheet" type="text/css" href="src/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="src/js/main.js"></script>
+
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KMNKXGH"
+              height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <script>
+        if ($(window).width() < 1919 && $(window).width() > 960) {
+            $('body').css('zoom', 50 + (($(window).width() - 960) / 960 * 50) + '%')
+        }
+    </script>
+    <div class="container">
+        <div class="header">
+            <div class="left">
+                <img src='src/assets/logo.svg' class='logo img-fluid' />
+            </div>
+            <div class="menu">
+                <a href="#about">About</a>
+                <a href="#integration">Integration</a>
+                <a href="#audit">Audit</a>
+                <a href="mailto:hi@heybooster.ai">Contact</a>
+            </div>
+            <div class="right"><a href="https://app.heybooster.ai/login/">SIGN IN</a></div>
+
+
+        </div>
+
+        <div class="header-mobile-top">
+            <img class="logo" src="src/assets/logo.svg">
+            <img id="nav-button" src="src/assets/bars.svg">
+        </div>
+
+        <div class="header-mobile">
+            <div class="top">
+                <span>Menu</span>
+                <img id="nav-close" src="src/assets/close.svg">
+            </div>
+            <div class="menu">
+                <a href="#about">About</a>
+                <a href="#integration">Integration</a>
+                <a href="#audit">Audit</a>
+                <a href="mailto:hi@heybooster.ai">Contact</a>
+            </div>
+            <div class="bottom">
+                <a>SIGN IN</a>
+            </div>
+        </div>
+
+        <div class="p1">
+            <div class="left">
+                <span class="title mobile">Make sense of<br />Google Analytics data<br />for e-commerce
+                    teams<br /></span>
+                <span class="title desktop">Make sense of Google Analytics<br />data for e-commerce teams<br /></span>
+                <p class="p1-subtitle">Get Google Analytics audit with the list of prioritized
+                    insights</p>
+
+                <div class="buttons">
+                    <a style="color: #202440;" href="https://app.heybooster.ai/" target="_blank"><img
+                            src="src/assets/slack.svg" class="img-fluid"> Add to Slack</a>
+                    <a href="https://app.heybooster.ai/" target="_self" style="color: white;"><img
+                            src="src/assets/google.svg" class="img-fluid">Sign in with Google</a>
+                </div>
+
+                <a class="talk" href="https://app.monstercampaigns.com/c/dibz6rly0nebv3prsimz/" target="_blank">
+                    <div class="talk-image-wrapper" style="position: absolute;">
+                        <div class="talk-image">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="109.351" height="53.195"
+                                viewBox="0 0 109.351 53.195">
+                                <path id="Path_3" data-name="Path 3"
+                                    d="M914.484,1650.567l73.971-24.174-20.064,46.655-30.7-16.2,42.062-24.657-48.589,20.547Z"
+                                    transform="translate(-879.103 -1626.394)" fill="#48bab4" />
+                                <path id="Path_4" data-name="Path 4"
+                                    d="M979.752,1632.2l-41.578,24.657-5.56,12.087-1.45-16.922Z"
+                                    transform="translate(-879.103 -1626.394)" fill="#405f80" />
+                                <path id="Path_5" data-name="Path 5" d="M951.469,1664.1l-18.614,4.109,5.076-11.6Z"
+                                    transform="translate(-879.103 -1626.394)" fill="#90cecc" />
+                                <path id="Path_6" data-name="Path 6"
+                                    d="M928,1668.214s-22.944-17.4-27.537-1.209,7.01,13.054,8.944,7.977-8.944-25.14-29.975-6.769"
+                                    transform="translate(-879.103 -1626.394)" fill="none" stroke="#707070"
+                                    stroke-width="1" />
+                            </svg>
+                        </div>
+                    </div>
+
+                    Talk to our product specialist
+                </a>
+            </div>
+
+            <div class="right">
+                <img src="src/assets/page_1.svg" class="img-fluid">
+            </div>
+        </div>
+
+        <div class="sub-title first" id="audit">
+            <p class="s1">Benefits of heybooster</p>
+        </div>
+
+        <div class="p2">
+            <div class="left">
+                <img src="src/assets/benefits.svg" class="img-fluid" />
+            </div>
+
+            <div class='right'>
+                <p><span style="color: #222d39;">&#10004;</span> Validate <strong
+                        style='font-family: Avenir Next Bold;'>proper setup</strong> of <br class="mobile">Google
+                    Analytics account</p>
+
+                <p><span style="color: #222d39;">&#10004;</span> Reveal issues on measurement <br class="mobile"> with
+                    <strong style='font-family: Avenir Next Bold;'>prioritization</strong> </p>
+
+                <p><span style="color: #222d39;">&#10004;</span> <strong style='font-family: Avenir Next Bold;'>Keep
+                        informed</strong> if anything changes on
+                    your Google Analytics Setup</p>
+
+
+            </div>
+        </div>
+        <div class="sub-title second">
+            <p class="s-aas">Analytics Health Score</p>
+        </div>
+
+
+        <div class="p3">
+            <div class="left">
+                <img src="src/assets/p2.jpg" class="img-fluid" />
+            </div>
+
+            <div class='right'>
+                <p class="title-cn"><b>Analytics Health Score is indicator of how ready your Google Analytics for the
+                        next
+                        marketing activity</b></p>
+
+                <p class="p3-dsc">Average Google Analytics Health Score for
+                    e-commerce businesses is 65 over 100,
+                    what about yours? <br class="mobile">You are just one click away to learn it.</p>
+
+            </div>
+
+        </div>
+
+        <div class="sub-title" id="integration">
+            <p class="integ">Integration</p>
+        </div>
+
+        <div class="p4">
+            <div class='content'>
+                <div class="obj">
+                    <div style="position: absolute;">
+
+                        <img src="src/assets/int_google.svg" />
+                    </div>
+                    <p> Sign in with Google </p>
+                </div>
+
+                <div class="path desktop">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="17.8" height="42.8" viewBox="0 0 17.8 42.8">
+                        <line id="Line_1" data-name="Line 1" x2="15" y2="20" transform="translate(1.4 1.4)" fill="none"
+                            stroke="#202440" stroke-linecap="round" stroke-width="2" />
+                        <line id="Line_2" data-name="Line 2" y1="20" x2="15" transform="translate(1.4 21.4)" fill="none"
+                            stroke="#202440" stroke-linecap="round" stroke-width="2" />
+                    </svg>
+                </div>
+
+                <div class="path mobile">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32.773" height="12.773" viewBox="0 0 32.773 12.773">
+                        <line id="Line_1" data-name="Line 1" x2="10" y2="15"
+                            transform="translate(31.387 1.387) rotate(90)" fill="none" stroke="#202440"
+                            stroke-linecap="round" stroke-width="2" />
+                        <line id="Line_2" data-name="Line 2" y1="15" x2="10"
+                            transform="translate(16.387 1.387) rotate(90)" fill="none" stroke="#202440"
+                            stroke-linecap="round" stroke-width="2" />
+                    </svg>
+                </div>
+
+                <div class="obj second">
+                    <div style="position: absolute;">
+                        <img src="src/assets/int_google_analytics.svg" />
+                    </div>
+                    <p> Connect your Analytics </p>
+
+                </div>
+                <div class="path desktop">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="17.8" height="42.8" viewBox="0 0 17.8 42.8">
+                        <line id="Line_1" data-name="Line 1" x2="15" y2="20" transform="translate(1.4 1.4)" fill="none"
+                            stroke="#202440" stroke-linecap="round" stroke-width="2" />
+                        <line id="Line_2" data-name="Line 2" y1="20" x2="15" transform="translate(1.4 21.4)" fill="none"
+                            stroke="#202440" stroke-linecap="round" stroke-width="2" />
+                    </svg>
+                </div>
+                <div class="path mobile">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32.773" height="12.773" viewBox="0 0 32.773 12.773">
+                        <line id="Line_1" data-name="Line 1" x2="10" y2="15"
+                            transform="translate(31.387 1.387) rotate(90)" fill="none" stroke="#202440"
+                            stroke-linecap="round" stroke-width="2" />
+                        <line id="Line_2" data-name="Line 2" y1="15" x2="10"
+                            transform="translate(16.387 1.387) rotate(90)" fill="none" stroke="#202440"
+                            stroke-linecap="round" stroke-width="2" />
+                    </svg>
+                </div>
+
+                <div class="obj third">
+                    <div style="position: absolute;">
+                        <img src="src/assets/int_slackk.svg" />
+                    </div>
+                    <p> Connect your Slack </p>
+
+                </div>
+                <div class="path desktop">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="17.8" height="42.8" viewBox="0 0 17.8 42.8">
+                        <line id="Line_1" data-name="Line 1" x2="15" y2="20" transform="translate(1.4 1.4)" fill="none"
+                            stroke="#202440" stroke-linecap="round" stroke-width="2" />
+                        <line id="Line_2" data-name="Line 2" y1="20" x2="15" transform="translate(1.4 21.4)" fill="none"
+                            stroke="#202440" stroke-linecap="round" stroke-width="2" />
+                    </svg>
+                </div>
+                <div class="path mobile">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32.773" height="12.773" viewBox="0 0 32.773 12.773">
+                        <line id="Line_1" data-name="Line 1" x2="10" y2="15"
+                            transform="translate(31.387 1.387) rotate(90)" fill="none" stroke="#202440"
+                            stroke-linecap="round" stroke-width="2" />
+                        <line id="Line_2" data-name="Line 2" y1="15" x2="10"
+                            transform="translate(16.387 1.387) rotate(90)" fill="none" stroke="#202440"
+                            stroke-linecap="round" stroke-width="2" />
+                    </svg>
+                </div>
+
+                <div class="obj">
+                    <div style="position: absolute;">
+                        <img src="src/assets/int_search-analytics.svg" />
+                    </div>
+                    <p> You got it! </p>
+                </div>
+
+            </div>
+
+            <div class="p4-button">
+                <a style="color: white;" href="https://app.heybooster.ai/login/">Get First Insight For Free</a>
+            </div>
+
+        </div>
+
+
+        <div class="sub-title">
+            <p>What people say about us?</p>
+        </div>
+
+        <div class="p5">
+            <!--  -->
+            <div class="person">
+                <div class="content">
+                    <p>"As a part of our daily marketing activities, we strictly depended to Google Analytics to manage
+                        them in a one place. heybooster show us pain points which is obstacle to using Google Analytics
+                        effectively. It is notifying us about issues we need to solve as well as training our team with
+                        the insights." </p>
+                </div>
+                <div class="p-about">
+                    <div class="p-img"><img src="src/assets/img/person1.png" class="img-fluid" /></div>
+                    <div class="p-des">
+                        <div class="p-name">
+                            <p>Gülden Kuru</p>
+                        </div>
+                        <div class="p-job">
+                            <p>Ecommerce Manager of <b>Atelier Rebul</b></p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="person">
+                <div class="content">
+                    <p>"Before heybooster come into our life , i always worried about analysis of my website traffic and
+                        need to control almost everyday for proper functioning. Now, if heybooster sends any alert about
+                        broken setup, i just forward slack message to our analytics specialist and waiting for next
+                        heybooster notification about positively change."</p>
+                </div>
+
+                <div class="p-about">
+                    <div class="p-img"><img src="src/assets/img/person2.png" class="img-fluid" /></div>
+                    <div class="p-des">
+                        <div class="p-name">
+                            <p>İlyas Erismis</p>
+                        </div>
+                        <div class="p-job">
+                            <p>Founder & CEO of <b>Hediyesepeti</b></p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="person">
+                <div class="content">
+                    <p>"To increase our health score is the new challenge for our analytics team. With the prioritized
+                        list of issue, we can use the resources effectively and increase our score 65 to 85 in a week.
+                        Heybooster even change the KPI of our web analytics team, we love it!"</p>
+                </div>
+                <div class="p-about">
+                    <div class="p-img"><img src="src/assets/img/person3.png" class="img-fluid" /></div>
+                    <div class="p-des">
+                        <div class="p-name">
+                            <p>Büşra Çildaş</p>
+                        </div>
+                        <div class="p-job">
+                            <p>Marketing Specialist of <b>Paraşüt</b></p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </div>
+    <div class="footer">
+
+        <div class="footer-row">
+            <div class="footer-col">
+                <img src="src/assets/heybooster-icon.svg"><br />
+                <span class="footer-message" style="font-size: 20px; color: white;">heybooster helps e-commerce <br
+                        class="mobile">teams <br class="desktop" />make sense of<br class="mobile">
+                    Google Analytics data.</span>
+                <div class="social-group">
+                    <div class="social-button">
+                        <img src="src/assets/facebook.svg">
+                        <div style="position: absolute;">
+                            <div class="circle">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-button">
+                        <img src="src/assets/twitter.svg">
+                        <div style="position: absolute;">
+                            <div class="circle">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-button">
+                        <img src="src/assets/linkedin.svg">
+                        <div style="position: absolute;">
+                            <div class="circle">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-button">
+                        <img src="src/assets/instagram.svg">
+                        <div style="position: absolute;">
+                            <div class="circle">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-col">
+                <span class="title">Company</span>
+                <div class="links">
+                    <div class="links-1">
+                        <a class="link">About</a>
+                        <a class="link">Careers</a>
+                    </div>
+                    <div class="links-2">
+                        <a class="link">Blog</a>
+                        <a href="mailto:hi@heybooster.ai" class="link">Contact</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-col">
+                <span class="title">Newsletter</span>
+                <span class="message">Join thousands of users who already enjoy our weekly newsletter.</span>
+                <div class="newsletter-input">
+                    <div class="absolute-wrapper" style="position: absolute;">
+                        <a href="#" class="send-button">
+                            <img src="src/assets/send-icon.svg">
+                        </a>
+                    </div>
+                    <input placeholder="example@gmail.com">
+
+                </div>
+            </div>
+        </div>
+        <div class="footer-row">
+            <span>Created by heyBooster Team</span>
+            <span>Copyright © 2019</span>
+            <div class="links">
+                <a class="link">Terms and Conditions</a>
+                <a class="link">Privacy Policy</a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+
+        const $menu = $('.header-mobile');
+
+        $(document).mouseup(e => {
+            if (!$menu.is(e.target)
+                && $menu.has(e.target).length === 0) {
+                $menu.removeClass('active');
+            }
+        });
+
+        $('.toggle').on('click', () => {
+            $menu.toggleClass('active');
+        });
+
+        $('#nav-button').click(function () {
+            $('.header-mobile').toggleClass('active')
+        })
+        $('#nav-close').click(function () {
+            $('.header-mobile').toggleClass('active')
+        })
+
+    </script>
+
+</body>
+
+</html>
